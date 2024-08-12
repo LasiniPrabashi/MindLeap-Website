@@ -16,9 +16,10 @@ function App() {
      <Hero/>
      <Services/>
      <About/>
+     <WorkingStep/>
      <Pricing/>
      <Testimonial/>
-     <WorkingStep/>
+    
     {/* <h1 className='text-2xl font-normal'>MindLeap Mentall Wellness React Project Starter Files</h1> */}
    </div>
   )
