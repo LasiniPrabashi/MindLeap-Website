@@ -3,6 +3,9 @@ import thumnailImg from "../assets/video-thumbnail.webp"
 import { FaPlay } from "react-icons/fa";
 import { FaCircleArrowRight } from "react-icons/fa6";
 
+import {motion} from "framer-motion"
+import {fadeIn} from "../utils/animationVariansts"
+
 const About = () => {
     const [isVideoPlaying, setIsVideoPlaying] = useState(false)
 
@@ -15,7 +18,12 @@ const About = () => {
     }
   return (
     <div id='about' className='bg-[#f7f8fc] pb-16 pt-20'>
-        <div className='container mx-auto'>
+        <motion.div
+         variants={fadeIn('down', 0.2)}
+         initial="hidden"
+         whileInView={"show"}
+         viewport={{once: false,amount: 0.7}}
+        className='container mx-auto'>
             <div className='py-12 px-4 md:w-4/5 mx-auto flex flex-col md:flex-row items-center gap-8'>
 
              <div className='md:w-1/2 w-full mb-8 md:mb-0'>
@@ -69,7 +77,7 @@ const About = () => {
             )
          }
 
-        </div>
+        </motion.div>
     </div>
   )
 }
