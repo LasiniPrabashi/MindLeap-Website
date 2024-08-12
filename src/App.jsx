@@ -1,5 +1,6 @@
 import './App.css'
 import About from './component/About'
+import Contact from './component/Contact'
 import Hero from './component/Hero'
 import Navbar from './component/Navbar'
 import Services from './component/Services'
@@ -19,7 +20,7 @@ function App() {
      <WorkingStep/>
      <Pricing/>
      <Testimonial/>
-    
+    <Contact/>
     {/* <h1 className='text-2xl font-normal'>MindLeap Mentall Wellness React Project Starter Files</h1> */}
    </div>
   )
