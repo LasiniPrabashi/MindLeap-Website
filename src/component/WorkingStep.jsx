@@ -22,21 +22,21 @@ const WorkingStep = () => {
 
         <div className='flex flex-col md:w-4/5 mx-auto md:flex-row gap-8'>
           <div className='relative bg-white text-center rounded-lg p-6 flex-1'>
-              <div className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primary
+              <div className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-orange-500
                text-white size-14 rounded-full flex items-center justify-center'>1</div>
                <h3 className='text-lg font-medium mt-8'>Fill a Form</h3>
                <p className='my-2'>Step 1 description goes here.lorem ipsum dolor sit 
                 amet,consectetur adipiscing elit</p>
           </div>
           <div className='relative bg-white text-center rounded-lg p-6 flex-1'>
-              <div className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primary
+              <div className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-orange-500
                text-white size-14 rounded-full flex items-center justify-center'>2</div>
                <h3 className='text-lg font-medium mt-8'>Get Matched</h3>
                <p className='my-2'>Step 2 description goes here.lorem ipsum dolor sit 
                amet,consectetur adipiscing elit</p>
           </div>
           <div className='relative bg-white text-center rounded-lg p-6 flex-1'>
-              <div className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primary
+              <div className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-orange-500
                text-white size-14 rounded-full flex items-center justify-center'>3</div>
                <h3 className='text-lg font-medium mt-8'>Fill a Form</h3>
                <p className='my-2'>Step 3 description goes here.lorem ipsum dolor sit 

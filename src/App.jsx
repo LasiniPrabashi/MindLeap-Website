@@ -7,7 +7,7 @@ import Navbar from './component/Navbar'
 import Services from './component/Services'
 import Testimonial from './component/Testimonial'
 import WorkingStep from './component/WorkingStep'
-import Pricing from './component/pricing'
+import Pricing from './component/Pricing'
 
 function App() {
   

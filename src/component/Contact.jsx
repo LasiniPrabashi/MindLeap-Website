@@ -45,7 +45,7 @@ const Contact = () => {
                      <div className='flex items-start gap-4'>
                         <div className='flex items-center justify-center rounded-full bg-[#ffffff1a]
                         p-3'>
-                        <FaUserAlt className='text-primary' />
+                        <FaUserAlt className='text-orange-500' />
                         </div>
                         <div className='space-y-1'>
                             <h3 className='text-lg font-medium'>24 Hours Services</h3>
@@ -55,7 +55,7 @@ const Contact = () => {
                      <div className='flex items-start gap-4'>
                         <div className='flex items-center justify-center rounded-full bg-[#ffffff1a]
                         p-3'>
-                        <FaEnvelope className='text-primary' />
+                        <FaEnvelope className='text-orange-500' />
                         </div>
                         <div className='space-y-1'>
                             <h3 className='text-lg font-medium'>Expert Therapist</h3>
@@ -65,7 +65,7 @@ const Contact = () => {
                      <div className='flex items-start gap-4'>
                         <div className='flex items-center justify-center rounded-full bg-[#ffffff1a]
                         p-3'>
-                        <FaPhoneAlt className='text-primary' />
+                        <FaPhoneAlt className='text-orange-500' />
                         </div>
                         <div className='space-y-1'>
                             <h3 className='text-lg font-medium'>High Quality Care</h3>
@@ -75,7 +75,7 @@ const Contact = () => {
                      <div className='flex items-start gap-4'>
                         <div className='flex items-center justify-center rounded-full bg-[#ffffff1a]
                         p-3'>
-                        <FaGlobe className='text-primary' />
+                        <FaGlobe className='text-orange-500' />
                         </div>
                         <div className='space-y-1'>
                             <h3 className='text-lg font-medium'>Trusted Clinic</h3>
@@ -93,30 +93,30 @@ const Contact = () => {
                         <input
                         onChange={e => setName(e.target.value)}
                         type='text' placeholder='Name' className='w-full p-4 rounded-md
-                         focus:outline-none focus:ring-2 focus:ring-primary shadow'/>
+                         focus:outline-none focus:ring-2 focus:ring-orange-500 shadow'/>
                           <input
                            onChange={e => setEmail(e.target.value)}
                           type='email' placeholder='Email Address' className='w-full p-4 rounded-md
-                         focus:outline-none focus:ring-2 focus:ring-primary shadow'/>
+                         focus:outline-none focus:ring-2 focus:ring-orange-500 shadow'/>
                     </div>
                     <div className='flex sm:flex-row flex-col gap-4'>
                         <input
                          onChange={e => setPhone(e.target.value)}
                         type='tel' placeholder='Contact Number' className='w-full p-4 rounded-md
-                         focus:outline-none focus:ring-2 focus:ring-primary shadow'/>
+                         focus:outline-none focus:ring-2 focus:ring-orange-500 shadow'/>
                           <input
                            onChange={e => setCountry(e.target.value)}
                           type='text' placeholder='Country' className='w-full p-4 rounded-md
-                         focus:outline-none focus:ring-2 focus:ring-primary shadow'/>
+                         focus:outline-none focus:ring-2 focus:ring-orange-500 shadow'/>
                     </div>
                     <textarea
                      onChange={e => setMessage(e.target.value)}
                     rows="S"
                     placeholder='Write Your message...' className='w-full p-4 rounded-md
-                         focus:outline-none focus:ring-2 focus:ring-primary shadow'></textarea>
+                         focus:outline-none focus:ring-2 focus:ring-orange-500 shadow'></textarea>
                          <button
                          type='submit'
-                         className='w-full p-3 bg-primary text-white rounded-md hover:bg-primary/80'
+                         className='w-full p-3 bg-orange-500 text-white rounded-md hover:bg-orange-500/80'
                          >Send Message</button>
                 </form>
                 
@@ -131,7 +131,7 @@ const Contact = () => {
                         <p>Thank you, {name}, for submiting your query.</p>
                         <button
                         onClick={closeModel}
-                        className='mt-4 px-4 py-2 bg-primary text-white rounded-md'>Close</button>
+                        className='mt-4 px-4 py-2 bg-orange-500 text-white rounded-md'>Close</button>
                     </div>
                     </div>
                 )

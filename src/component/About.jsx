@@ -45,7 +45,7 @@ const About = () => {
             <h2 className='text-4xl capitalize font-secondary font-bold mb-4  leading-snug'>Individual Consult And Therapy</h2>
            <p className='text-lg mb-12 md:pr-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas aperiam, minus voluptatem minima reprehenderit,
              amet, vero dolore ratione aliquam omnis officia deserunt hic ipsa cupiditate impedit repellendus quos excepturi officiis.</p>
-             <button className='bg-primary text-white py-3.5 px-8 font-medium rounded-md hover:bg-primary/90 '>
+             <button className='bg-orange-500 text-white py-3.5 px-8 font-medium rounded-md hover:bg-orange-400/90 '>
               <a href='#contact' className='flex gap-1 items-center'>
                 <span>Get Started</span>
                 <FaCircleArrowRight/>

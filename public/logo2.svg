@@ -1,0 +1,9 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Green arc above the text -->
+  <path d="M 120 80 Q 200 50 280 80" stroke="#8BC34A" stroke-width="2.5" fill="none"/>
+  
+  <!-- MindLeaps text -->
+  <text x="200" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="400">
+    <tspan fill="#8E44AD">Mind</tspan><tspan fill="#8BC34A">Leaps</tspan>
+  </text>
+</svg>

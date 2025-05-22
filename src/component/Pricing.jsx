@@ -61,7 +61,7 @@ const Pricing = () => {
             packages.map((pkg, index) => (
               <div key={index} className='bg-white rounded-lg p-6 flex-1 shadow-lg'>
                 <h3 className='text-2xl font-semibold mb-4'>{pkg.name}</h3>
-                <hr className='w-24 border text-primary border-primary'/>
+                <hr className='w-24 border text-orange-500 border-orange-500'/>
                 <p className='text-3xl font-bold mb-4'>{pkg.price} <span className='text-lg font-normal'>/mo</span></p>
                 <p className='text-lg mb-4'>{pkg.description}</p>
                 <ul className='list-disc list-inside space-y-2 mb-6'> 
@@ -73,7 +73,7 @@ const Pricing = () => {
                 </ul>
                 <button
                 onClick={handleScrollToContact}
-                 className='bg-primary text-white px-4 py-2 rounded'>Get Started</button>
+                 className='bg-orange-500 text-white px-4 py-2 rounded'>Get Started</button>
               </div>
             ))
           }

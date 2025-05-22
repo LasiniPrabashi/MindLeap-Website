@@ -35,7 +35,7 @@ const Testimonial = () => {
           {testimonials.map((testimonial, index) => (
             <div key={index} className='relative bg-white rounded-lg p-6 flex-1'>
               <div className='absolute top-0 left-0 transform -translate-x-1/2 -translate-y-1/2'>
-                <BsChatQuoteFill className='size-12 text-primary' />
+                <BsChatQuoteFill className='size-12 text-orange-500' />
               </div>
               <div className='flex flex-col space-y-3 mb-4'>
                 <p className='text-lg mb-2'>{testimonial.review}</p>
@@ -55,4 +55,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default Testimonial;

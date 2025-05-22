@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaEnvelope, FaFacebookF, FaInstagram, FaLinkedinIn, FaMapMarkerAlt, FaPhoneAlt, FaTwitter } from 'react-icons/fa'
-import footerLogo from "../assets/footer-logo.svg"
+import footerLogo from "../assets/footer.svg"
 
 const Footer = () => {
   return (
@@ -8,27 +8,27 @@ const Footer = () => {
         <div className='container mx-auto grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2 gap-8'>
           <div className='space-y-6 mr-14'>
           <div className='flex items-center space-x-2'>
-            <img src={footerLogo} alt=''  className='w-32 h-auto'/>
+            <img src={footerLogo} alt=''  className='w-64 h-auto'/>
           </div>
           <p className='text-para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat esse,
              autem velit consequatur a eligendi porro nihil, fugiat voluptatem numquam necessitatibus,
               omnis ratione harum quod. Fugiat fugit officia id nostrum!
              </p>
              <div className='flex space-x-4'>
-               <a href='' className='bg-gray-200 text-primary rounded-full size-10 flex items-center
-               justify-center hover:bg-primary hover:text-white'>
+               <a href='' className='bg-gray-200 text-orange-500 rounded-full size-10 flex items-center
+               justify-center hover:bg-orange-500 hover:text-white'>
                 <FaFacebookF className='text-xl'/>
                </a>
-               <a href='' className='bg-gray-200 text-primary rounded-full size-10 flex items-center
-               justify-center hover:bg-primary hover:text-white'>
+               <a href='' className='bg-gray-200 text-orange-500 rounded-full size-10 flex items-center
+               justify-center hover:bg-orange-500 hover:text-white'>
                 <FaTwitter className='text-xl'/>
                </a>
-               <a href='' className='bg-gray-200 text-primary rounded-full size-10 flex items-center
-               justify-center hover:bg-primary hover:text-white'>
+               <a href='' className='bg-gray-200 text-orange-500 rounded-full size-10 flex items-center
+               justify-center hover:bg-orange-500 hover:text-white'>
                 <FaInstagram className='text-xl'/>
                </a>
-               <a href='' className='bg-gray-200 text-primary rounded-full size-10 flex items-center
-               justify-center hover:bg-primary hover:text-white'>
+               <a href='' className='bg-gray-200 text-orange-500 rounded-full size-10 flex items-center
+               justify-center hover:bg-orange-500 hover:text-white'>
                 <FaLinkedinIn className='text-xl'/>
                </a>
              </div>
@@ -60,15 +60,15 @@ const Footer = () => {
             <h3 className='text-xl font-semibold mb-4'>Contact Info</h3>   
              <ul className='space-y-3'>
                <li className='flex items-center gap-2'>
-                <FaMapMarkerAlt className='text-primary'/>
+                <FaMapMarkerAlt className='text-orange-500'/>
                 <p className='text-gray-700'>123 Street,city, Country</p>
                  </li>
                  <li className='flex items-center gap-2'>
-                <FaPhoneAlt className='text-primary'/>
+                <FaPhoneAlt className='text-orange-500'/>
                 <p className='text-gray-700'>+94 87237643</p>
                  </li>
                  <li className='flex items-center gap-2'>
-                <FaEnvelope className='text-primary'/>
+                <FaEnvelope className='text-orange-500'/>
                 <p className='text-gray-700'>info@mindleap.com</p>
                  </li>
               

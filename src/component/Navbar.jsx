@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { HiMenuAlt3 } from "react-icons/hi";
 import { motion } from "framer-motion"
 
+
+
 const Navbar = () => {
 const [isOpen,setIsOpen] = useState(false);   
 const [activeSection, setActiveSection] = useState('home'); 
@@ -114,12 +116,13 @@ const navLinks = (
 )
 
   return (
-    <header className='bg-heroBg text-white py-6 px-4 fixed top-0 left-0 right-0 z-10'>
+    <header className='bg-heroBg text-white  px-4 fixed top-0 left-0 right-0 z-10'>
         <div className='container mx-auto flex justify-between items-center h-full'>
 
             <div className='text-white text-lg text-semibold'>
                 <a href='/'>
-                <img src='/logo.svg' alt=''></img>
+                    <img src='/logo2.svg' alt='Logo' style={{ width: '190px' }} />
+                    {/*<img src='/logo2.svg' alt=''></img>*/}
                 </a>
             </div>
 
@@ -135,7 +138,7 @@ const navLinks = (
                 e.preventDefault();
                 handleScrollTo('contact')
               }}
-               href='#contact' className='text-white bg-primary hover:bg-primary/90 px-4 py-2 rounded'>
+               href='#contact' className='text-white bg-orange-500 hover:bg-orange-400/90 px-4 py-2 rounded'>
                 Contact Us
               </a>
             </div>
@@ -157,7 +160,7 @@ const navLinks = (
                         {navLinks.props.children}
                         <li className='py-2'>
                         <a href='#contact' 
-                        className='text-white bg-primary hover:bg-primary/90 px-4 py-2 rounded'
+                        className='text-white bg-orange-500  hover:bg-orange-400/90 px-4 py-2 rounded'
                         onClick={(e) => {e.preventDefault()
                             handelCloseMenu()
                             handleScrollTo('contact')
@@ -167,8 +170,8 @@ const navLinks = (
                     </ul>
                     
                 </nav>
-            )
-        }
+       )
+}
     </header>
   )
 }

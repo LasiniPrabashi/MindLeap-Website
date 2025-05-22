@@ -1,9 +1,10 @@
 import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import serviceImg1 from "../assets/service1.webp"
-import serviceImg2 from "../assets/service2.webp"
+import serviceImg1 from "../assets/whathappensincouplescounselling.jpg"
+import serviceImg2 from "../assets/service02.jpg"
 import serviceImg3 from "../assets/service3.webp"
 import serviceImg4 from "../assets/service4.webp"
+
 
 import {motion} from "framer-motion"
 import {fadeIn} from "../utils/animationVariansts"
@@ -45,7 +46,7 @@ const Services = () => {
       viewport={{once: false,amount: 0.7}}
       className="flex flex-col md:flex-row gap-8 mt-8">
       <div className='md:w-1/2 bg-white rounded-lg p-12 font-secondary'>
-        <h3 className='text-3x1 font-semibold text-primary mb-4'>Couple Counseling</h3>
+        <h3 className='text-3x1 font-semibold text-orange-500 mb-4'>Couple Counseling</h3>
         <p className='mb-8'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, aspernatur nulla iusto, dicta porro fuga ullam 
             explicabo natus molestiae soluta non eius adipisci vero obcaecati laudantium rerum accusamus distinctio nihil?</p>
             <h4 className='text-x1 font-medium text-black mb-4'>Benefits</h4>
@@ -70,7 +71,7 @@ const Services = () => {
       viewport={{once: false,amount: 0.7}}
       className="flex flex-col md:flex-row gap-8 mt-8">
       <div className='md:w-1/2 bg-white rounded-lg p-12 font-secondary'>
-        <h3 className='text-3x1 font-semibold text-primary mb-4'>Parenting Skills</h3>
+        <h3 className='text-3x1 font-semibold text-orange-500 mb-4'>Parenting Skills</h3>
         <p className='mb-8'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, aspernatur nulla iusto, dicta porro fuga ullam 
             explicabo natus molestiae soluta non eius adipisci vero obcaecati laudantium rerum accusamus distinctio nihil?</p>
             <h4 className='text-x1 font-medium text-black mb-4'>Benefits</h4>
@@ -95,7 +96,7 @@ const Services = () => {
       viewport={{once: false,amount: 0.7}}
       className="flex flex-col md:flex-row gap-8 mt-8">
       <div className='md:w-1/2 bg-white rounded-lg p-12 font-secondary'>
-        <h3 className='text-3x1 font-semibold text-primary mb-4'>Feeling Stuck</h3>
+        <h3 className='text-3x1 font-semibold text-orange-500 mb-4'>Feeling Stuck</h3>
         <p className='mb-8'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, aspernatur nulla iusto, dicta porro fuga ullam 
             explicabo natus molestiae soluta non eius adipisci vero obcaecati laudantium rerum accusamus distinctio nihil?</p>
             <h4 className='text-x1 font-medium text-black mb-4'>Benefits</h4>
@@ -121,7 +122,7 @@ const Services = () => {
       viewport={{once: false,amount: 0.7}}
       className="flex flex-col md:flex-row gap-8 mt-8">
       <div className='md:w-1/2 bg-white rounded-lg p-12 font-secondary'>
-        <h3 className='text-3x1 font-semibold text-primary mb-4'>Self-Confidence</h3>
+        <h3 className='text-3x1 font-semibold text-orange-500 mb-4'>Self-Confidence</h3>
         <p className='mb-8'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, aspernatur nulla iusto, dicta porro fuga ullam 
             explicabo natus molestiae soluta non eius adipisci vero obcaecati laudantium rerum accusamus distinctio nihil?</p>
             <h4 className='text-x1 font-medium text-black mb-4'>Benefits</h4>
